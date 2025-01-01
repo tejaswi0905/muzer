@@ -1,3 +1,9 @@
+import Appbar from "@/components/Appbar";
+
 export default function Home() {
-  return <main className="">Hello world</main>;
+  return (
+    <main className="">
+      <Appbar />
+    </main>
+  );
 }
